@@ -20,7 +20,7 @@ app.post('/linkedin-connect', (req, res) => {
 
     if (linkedinUrl && linkedinUrl.includes('linkedin.com/in/')) {(async () => {
       const browser = await puppeteer.launch({
-       headless: false,
+       headless: true,
        timeout: 120000,
        slowMo: 120});
       const page = await browser.newPage();
