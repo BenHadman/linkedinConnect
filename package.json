@@ -2,7 +2,7 @@
   "name": "linkedin-profile-scraper",
   "version": "1.0.0",
   "description": "",
-  "main": "api.js",
+  "main": "index.js",
   "scripts": {
     "start": "node api.js",
     "dev": "./node_modules/nodemon/bin/nodemon.js ./index.js",
